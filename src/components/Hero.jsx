@@ -97,7 +97,7 @@ const Hero = () => {
 
           {/* Right Column */}
           <motion.div 
-            className="flex-1 w-full flex justify-center lg:justify-end xl:pr-10 z-10 hidden sm:flex pt-10 lg:pt-0"
+            className="flex-1 w-full flex justify-center lg:justify-end xl:pr-10 z-10 hidden sm:flex pt-16 lg:pt-24"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
